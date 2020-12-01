@@ -1,2 +1,5 @@
 # Pictures-Of-Things
-Data trained with Darknet Data Creator 
+
+Classes
+* 0 = White cup
+* 1 = Black cup
