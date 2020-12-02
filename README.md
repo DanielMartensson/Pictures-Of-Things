@@ -17,6 +17,22 @@ and save pictures and begin counting from the last index.
 
 Do then a pull request to me. Don't forget to change the `README.md` and `classes.names` files.
 
+# Create list with paths 
+
+`Darknet` want two lists of paths that contains paths to the pictures. Both in training and validation.
+Here just run this `Java program`, where 0.8 will result 80% training and 20% validation paths. You can have a decimal number
+between `0.0` and `1.0`:
+
+```
+java GeneratePaths 0.8
+```
+
+If you want to modify and change:
+
+```
+javac GeneratePaths
+```
+
 # Classes
 
 * 0 = cup
