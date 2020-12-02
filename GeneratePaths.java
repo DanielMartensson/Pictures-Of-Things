@@ -39,7 +39,7 @@ class GeneratePaths {
 
 	private static void createPaths(ArrayList<File> allPictures, double procent) {
 		double size = (double) allPictures.size();
-		int stopTrain = (int) (size*procent);
+		int stopTrain = (int) (size * procent);
 		writeFile(allPictures, "TrainPaths.txt", 0, stopTrain);
 		writeFile(allPictures, "ValidPaths.txt", stopTrain, (int) size);
 	}
@@ -49,7 +49,10 @@ class GeneratePaths {
 		try {
 			BufferedWriter bw = new BufferedWriter(new FileWriter(new File("Classes/" + fileName)));
 			for (int i = start; i < stop; i++)
-				bw.write(allPictures.get(i).getAbsolutePath() + "\n");
+				if (i < stop - 1)
+					bw.write(allPictures.get(i).getAbsolutePath() + "\n");
+				else
+					bw.write(allPictures.get(i).getAbsolutePath()); // We don't need the last \n
 			bw.close();
 		} catch (Exception e) {
 			e.printStackTrace();
