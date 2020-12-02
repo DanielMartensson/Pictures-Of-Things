@@ -9,7 +9,7 @@ A collection of my own pictures in `416x416` format. All help is grateful.
 3. Set sample time to `2.00` seconds
 4. Select the class `ID` that you want to use e.g `0` for `cup` or a new class
 5. Clone this repository with `git` command
-6. Select `Classes` folder in `Darknet Data Creator` and begin to record
+6. Select `Classes` folder in `Darknet Data Creator` and begin to record. Don't select any folder that have a number e.g `15`. Only `Classes` folder.
 
 Then `Darknet Data Creator` will count how many `.png` files there are inside the folder that has the
 same `class ID` as you selected. When you press record, then `Darknet Data Creator` will begin to record 
