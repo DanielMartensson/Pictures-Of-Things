@@ -70,9 +70,9 @@ class GeneratePaths {
 			System.out.println("Writing file classes.data in Classes folder");
 			BufferedWriter bw = new BufferedWriter(new FileWriter(new File("Classes/classes.data")));
 			bw.write("classes = " + classes);
-			bw.write("train = Pictures-Of-Things/Classes/TrainPaths.txt");
-			bw.write("valid = Pictures-Of-Things/Classes/ValidPaths.txt");
-			bw.write("names = Pictures-Of-Things/Classes/classes.names");
+			bw.write("train = Pictures-Of-Things/Classes/TrainPaths.txt\n");
+			bw.write("valid = Pictures-Of-Things/Classes/ValidPaths.txt\n");
+			bw.write("names = Pictures-Of-Things/Classes/classes.names\n");
 			bw.write("backup = backup");
 			bw.close();
 		} catch (IOException e) {
