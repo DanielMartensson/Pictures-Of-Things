@@ -15,7 +15,7 @@ Then `Darknet Data Creator` will count how many `.png` files there are inside th
 same `class ID` as you selected. When you press record, then `Darknet Data Creator` will begin to record 
 and save pictures and begin counting from the last index.
 
-Do then a pull request to me. Don't forget to chane the `README.md` and `classes.names` files.
+Do then a pull request to me. Don't forget to change the `README.md` and `classes.names` files.
 
 # Classes
 
