@@ -1,1 +1,5 @@
-classes = 2train = Pictures-Of-Things/Classes/TrainPaths.txtvalid = Pictures-Of-Things/Classes/ValidPaths.txtnames = Pictures-Of-Things/Classes/classes.namesbackup = backup
+classes = 2
+train = Pictures-Of-Things/Classes/TrainPaths.txt
+valid = Pictures-Of-Things/Classes/ValidPaths.txt
+names = Pictures-Of-Things/Classes/classes.names
+backup = backup
