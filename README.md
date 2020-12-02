@@ -30,7 +30,7 @@ java GeneratePaths 0.8
 If you want to modify `GeneratePaths` and recompile it:
 
 ```
-javac GeneratePaths
+javac GeneratePaths.java
 ```
 
 # Classes
