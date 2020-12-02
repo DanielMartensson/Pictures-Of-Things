@@ -1,4 +1,4 @@
-# Pictures-Of-Things
+# Pictures Of Things
 
 A collection of my own pictures in `416x416` format. All help is grateful.
 
