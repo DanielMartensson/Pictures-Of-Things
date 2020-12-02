@@ -27,7 +27,7 @@ between `0.0` and `1.0`:
 java GeneratePaths 0.8
 ```
 
-If you want to modify and change:
+If you want to modify `GeneratePaths` and recompile it:
 
 ```
 javac GeneratePaths
