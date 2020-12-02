@@ -69,7 +69,7 @@ class GeneratePaths {
 		try {
 			System.out.println("Writing file classes.data in Classes folder");
 			BufferedWriter bw = new BufferedWriter(new FileWriter(new File("Classes/classes.data")));
-			bw.write("classes = " + classes);
+			bw.write("classes = " + classes + "\n");
 			bw.write("train = Pictures-Of-Things/Classes/TrainPaths.txt\n");
 			bw.write("valid = Pictures-Of-Things/Classes/ValidPaths.txt\n");
 			bw.write("names = Pictures-Of-Things/Classes/classes.names\n");
