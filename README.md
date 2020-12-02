@@ -20,3 +20,4 @@ Do then a pull request to me. Don't forget to change the `README.md` and `classe
 # Classes
 
 * 0 = cup
+* 1 = box
