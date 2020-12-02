@@ -4,7 +4,7 @@ A collection of my own pictures in `416x416` format. All help is grateful.
 
 # How to contribute to this repository
 
-1. Download `Darknet Data Creator` and run it with `mvn javafx:run`
+1. Download `Darknet Data Creator` and run it with `mvn javafx:run` https://github.com/DanielMartensson/Darknet-Data-Creator
 2. Set picture resolution to `416x416`
 3. Set sample time to `2.00` seconds
 4. Select the class `ID` that you want to use e.g `0` for `cup` or a new class
