@@ -1,6 +1,6 @@
 # Pictures Of Things
 
-A collection of my own pictures in `416x416` format. All help is grateful.
+A collection of my own pictures in `416x416` format. All help are appreciated.
 
 # How to contribute to this repository
 
