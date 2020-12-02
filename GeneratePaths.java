@@ -1,6 +1,5 @@
 import java.io.*;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.*;
 
 class GeneratePaths {
@@ -45,7 +44,6 @@ class GeneratePaths {
 	}
 
 	private static void writeFile(ArrayList<File> allPictures, String fileName, int start, int stop) {
-		int size = allPictures.size();
 		try {
 			BufferedWriter bw = new BufferedWriter(new FileWriter(new File("Classes/" + fileName)));
 			for (int i = start; i < stop; i++)
