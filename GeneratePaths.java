@@ -4,6 +4,10 @@ import java.util.*;
 
 class GeneratePaths {
 	public static void main(String[] args) {
+		if(args.length == 0) {
+			System.out.println("Enter a number between 0.0 and 1.0");
+			return;
+		}
 		double procent = readInputArgument(args);
 		if (procent == 0.0)
 			return;
