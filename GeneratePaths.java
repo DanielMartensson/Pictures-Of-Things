@@ -43,6 +43,7 @@ class GeneratePaths {
 
 	private static void createPaths(ArrayList<File> allPictures, double procent) {
 		double size = (double) allPictures.size();
+		System.out.println("Counted picture paths: " + size);
 		int stopTrain = (int) (size * procent);
 		writeFile(allPictures, "TrainPaths.txt", 0, stopTrain);
 		writeFile(allPictures, "ValidPaths.txt", stopTrain, (int) size);
@@ -60,7 +61,7 @@ class GeneratePaths {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		System.out.println("Writing file " + fileName + " in Classes folder");
+		System.out.println("Writing file " + fileName + " in Classes folder - Total pictures: " + (stop - start));
 
 	}
 	
